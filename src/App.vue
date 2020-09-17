@@ -1,11 +1,13 @@
 <template>
-  <div>
-    <p>ここはhomeです。</p>
-    <router-link to="/">Go to home</router-link>
+  <div id="app">
+    <router-view />
   </div>
 </template>
 
 <script>
+export default {
+  name: "App"
+};
 </script>
 
 <style>
