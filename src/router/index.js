@@ -2,8 +2,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 //
-import home from '@/home'
-import order from '@/order'
+import home from '@/components/login'
+// import order from '/order'
 
 Vue.use(Router)
 
@@ -11,7 +11,7 @@ export default new Router({
   routes: [
     {
       path: '/',
-      component: home
+      component: login
     },
     {
       path: '/newAccount',
@@ -19,3 +19,4 @@ export default new Router({
     }
   ]
 });
+export default router

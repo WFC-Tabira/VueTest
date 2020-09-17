@@ -1,32 +1,35 @@
 <html>
-    <head>
-        <title>beginner's Vue!</title>
-        <meta http-equiv="content-type" charset="utf-8">
-        <link rel="stylesheet" href="index.css">
-        <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP|Open+Sans&display=swap" rel="stylesheet">
-        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-        <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
-    </head>
-    <body>
-        <div id="wrapper">
-            <header>
-                <div id="pageTitle">
-                    {{ message }}
-                </div>
-            </header>
 
-            <main>
-<div id="app">
-  <router-view></router-view>
-</div>
-            </main>
+<head>
+    <title>beginner's Vue!</title>
+    <meta http-equiv="content-type" charset="utf-8">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP|Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+</head>
 
-            <footer>
-            </footer>
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="pageTitle">
+                {{ message }}
+            </div>
+        </header>
 
-        </div>
+        <main>
+            <div id="app">
+                <router-view></router-view>
+            </div>
+        </main>
 
-        <script src="index.js"></script>
-        <script src="messages.js"></script>
-    </body>
+        <footer>
+        </footer>
+
+    </div>
+
+    <script src="index.js"></script>
+    <script src="messages.js"></script>
+</body>
+
 </html>

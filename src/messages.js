@@ -1,11 +1,11 @@
-const pageTitle = new Vue({
+var pageTitle = new Vue({
     el: '#pageTitle',
     data: {
         message: 'ログイン'
     }
 });
 
-const appForm = new Vue({
+var appForm = new Vue({
   el:'#appForm',
   data:{
     errors:[],
@@ -23,3 +23,5 @@ const appForm = new Vue({
     }
   }
 });
+export default pageTitle
+export default appForm

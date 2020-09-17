@@ -11,6 +11,14 @@
       "port": 9204,
       "webRoot": "${workspaceFolder}",
       "url": "http://127.0.0.1:63982/p/VueTest/src/index.html?_cmAuth\u003dywxkrahhbx"
+    },
+    {
+      "name": "Launch Chrome 127.0.0.1 (1)",
+      "type": "chrome",
+      "request": "launch",
+      "port": 9240,
+      "webRoot": "${workspaceFolder}",
+      "url": "http://127.0.0.1:63982/p/VueTest/index.html?_cmAuth\u003dywxkrahhbx"
     }
   ]
 }
